@@ -370,10 +370,10 @@ strong {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: var(--space-md);
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
     margin-top: var(--space-lg);
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -586,5 +586,9 @@ strong {
     .footer-bottom {
         flex-direction: column;
         text-align: center;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
     }
 } 

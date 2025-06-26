@@ -198,9 +198,8 @@
 
 /* Service Page Specific Styles */
 .service-card.detailed {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-xl);
+    display: flex;
+    flex-direction: column;
     margin-bottom: var(--space-3xl);
     background-color: var(--color-white);
     border-radius: 12px;
@@ -217,6 +216,7 @@
 .service-image {
     position: relative;
     overflow: hidden;
+    height: 250px;
 }
 
 .service-image img {

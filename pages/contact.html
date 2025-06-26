@@ -49,12 +49,11 @@
 
     <!-- Main Content -->
     <main class="page-content">
-        <!-- Contact Methods -->
+        <!-- Contact Information -->
         <section class="contact-methods">
             <div class="container">
                 <div class="contact-grid">
                     <div class="contact-item">
-                        <div class="contact-icon">📞</div>
                         <div class="contact-details">
                             <h3>Call Us</h3>
                             <p><strong>(555) 123-4567</strong></p>
@@ -65,190 +64,68 @@
                     </div>
                     
                     <div class="contact-item">
-                        <div class="contact-icon">📧</div>
                         <div class="contact-details">
                             <h3>Email Us</h3>
                             <p><strong>info@propaintservices.com</strong></p>
-                            <p>Send project details, photos, or questions. We'll respond within 24 hours with a detailed assessment.</p>
+                            <p>Send project details and photos. We'll respond within 24 hours with a detailed assessment.</p>
                         </div>
                     </div>
                     
                     <div class="contact-item">
-                        <div class="contact-icon">📍</div>
                         <div class="contact-details">
                             <h3>Service Area</h3>
-                            <p><strong>Metro Area & Surrounding Communities</strong></p>
-                            <p>We travel to your location for consultations and projects. No job too far within our service area.</p>
+                            <p><strong>Metro Area & Communities</strong></p>
+                            <p>We travel to your location for consultations and projects throughout the metro area.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Forms -->
+        <!-- Contact Form -->
         <section class="contact-forms">
             <div class="container">
-                <div class="forms-container">
-                    <!-- Quote Request Form -->
+                <div class="simple-form-container">
                     <div class="form-section">
-                        <h2>Request a Detailed Quote</h2>
-                        <p>Get a comprehensive estimate for your painting project.</p>
+                        <h2>Get Your Free Quote</h2>
+                        <p>Tell us about your project and we'll provide a detailed estimate.</p>
                         
-                        <form id="quote-form" class="contact-form">
+                        <form id="contact-form" class="contact-form">
                             <div class="form-row">
                                 <div class="form-group">
-                                    <label for="name" class="form-label">Full Name *</label>
+                                    <label for="name" class="form-label">Name *</label>
                                     <input type="text" id="name" name="name" class="form-input" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <label for="phone" class="form-label">Phone *</label>
                                     <input type="tel" id="phone" name="phone" class="form-input" required>
                                 </div>
                             </div>
                             
                             <div class="form-group">
-                                <label for="email" class="form-label">Email Address *</label>
+                                <label for="email" class="form-label">Email *</label>
                                 <input type="email" id="email" name="email" class="form-input" required>
                             </div>
                             
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="project-type" class="form-label">Project Type *</label>
-                                    <select id="project-type" name="project-type" class="form-select" required>
-                                        <option value="">Select project type</option>
-                                        <option value="interior">Interior Painting</option>
-                                        <option value="exterior">Exterior Painting</option>
-                                        <option value="commercial">Commercial Project</option>
-                                        <option value="high-rise">High-Rise Work</option>
-                                        <option value="stairway">Stairway/Details</option>
-                                        <option value="mixed">Multiple Services</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="timeline" class="form-label">Preferred Timeline</label>
-                                    <select id="timeline" name="timeline" class="form-select">
-                                        <option value="">Select timeline</option>
-                                        <option value="asap">ASAP</option>
-                                        <option value="1-2weeks">1-2 weeks</option>
-                                        <option value="1month">Within a month</option>
-                                        <option value="2-3months">2-3 months</option>
-                                        <option value="flexible">Flexible</option>
-                                    </select>
-                                </div>
-                            </div>
-                            
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="location" class="form-label">Project Location *</label>
-                                    <input type="text" id="location" name="location" class="form-input" placeholder="City, State or full address" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="dimensions" class="form-label">Approximate Size</label>
-                                    <input type="text" id="dimensions" name="dimensions" class="form-input" placeholder="e.g., 2,000 sq ft, 3 rooms">
-                                </div>
+                            <div class="form-group">
+                                <label for="project-type" class="form-label">Project Type *</label>
+                                <select id="project-type" name="project-type" class="form-select" required>
+                                    <option value="">Select project type</option>
+                                    <option value="interior">Interior Painting</option>
+                                    <option value="exterior">Exterior Painting</option>
+                                    <option value="commercial">Commercial Project</option>
+                                    <option value="high-rise">High-Rise Work</option>
+                                    <option value="mixed">Multiple Services</option>
+                                </select>
                             </div>
                             
                             <div class="form-group">
                                 <label for="description" class="form-label">Project Description *</label>
-                                <textarea id="description" name="description" class="form-textarea" placeholder="Please describe your project in detail. Include colors, surfaces, prep work needed, and any special requirements." required></textarea>
+                                <textarea id="description" name="description" class="form-textarea" placeholder="Describe your project, including size, colors, and any special requirements." required></textarea>
                             </div>
                             
-                            <button type="submit" class="btn btn-primary btn-large">Get My Quote</button>
+                            <button type="submit" class="btn btn-primary btn-large">Get Free Quote</button>
                         </form>
-                    </div>
-
-                    <!-- Quick Contact Form -->
-                    <div class="form-section">
-                        <div class="contact-info">
-                            <h2>Quick Contact</h2>
-                            <p>Have a question or need immediate assistance?</p>
-                            
-                            <form id="contact-form" class="contact-form quick-form">
-                                <div class="form-group">
-                                    <label for="contact-name" class="form-label">Name *</label>
-                                    <input type="text" id="contact-name" name="name" class="form-input" required>
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="contact-email" class="form-label">Email *</label>
-                                    <input type="email" id="contact-email" name="email" class="form-input" required>
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="contact-phone" class="form-label">Phone</label>
-                                    <input type="tel" id="contact-phone" name="phone" class="form-input">
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="message" class="form-label">Message *</label>
-                                    <textarea id="message" name="message" class="form-textarea" placeholder="How can we help you?" required></textarea>
-                                </div>
-                                
-                                <button type="submit" class="btn btn-secondary btn-large">Send Message</button>
-                            </form>
-                            
-                            <!-- Emergency Contact -->
-                            <div class="emergency-contact">
-                                <h3>Emergency Service</h3>
-                                <p>Need immediate assistance with damage or urgent repairs?</p>
-                                <a href="tel:+15551234567" class="btn btn-outline">Call Emergency Line</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Map Section -->
-        <section class="map-section">
-            <div class="container">
-                <h2 class="section-title">Our Service Area</h2>
-                <div class="map-container">
-                    <!-- Placeholder for Google Maps -->
-                    <div style="
-                        width: 100%;
-                        height: 100%;
-                        background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        color: #666;
-                        border-radius: 12px;
-                        flex-direction: column;
-                        gap: 1rem;
-                    ">
-                        <div style="font-size: 1.5rem; font-weight: bold; color: var(--color-accent-2);">MAP</div>
-                        <p style="font-size: 1.2rem; font-weight: 500;">Interactive Service Area Map</p>
-                        <p>We serve the entire metro area and surrounding communities</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Why Contact Us */
-        <section class="why-contact">
-            <div class="container">
-                <h2 class="section-title">Why Choose ProPaint for Your Project?</h2>
-                <div class="benefits-grid">
-                    <div class="benefit-card">
-                        <div class="benefit-icon">⚡</div>
-                        <h3>Fast Response</h3>
-                        <p>All inquiries answered within 24 hours. Emergency services available.</p>
-                    </div>
-                    <div class="benefit-card">
-                        <div class="benefit-icon">📋</div>
-                        <h3>Detailed Quotes</h3>
-                        <p>Comprehensive estimates with no hidden fees or surprise charges.</p>
-                    </div>
-                    <div class="benefit-card">
-                        <div class="benefit-icon">🎨</div>
-                        <h3>Color Consultation</h3>
-                        <p>Professional color advice and design consultation included free.</p>
-                    </div>
-                    <div class="benefit-card">
-                        <div class="benefit-icon">🛡️</div>
-                        <h3>Fully Insured</h3>
-                        <p>Licensed, bonded, and insured for your complete peace of mind.</p>
                     </div>
                 </div>
             </div>
