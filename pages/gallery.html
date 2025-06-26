@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ProPaint Services</title>
+    <meta name="description" content="View our portfolio of completed painting projects including interior, exterior, high-rise, and commercial work.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/gallery.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="../index.html">ProPaint</a></h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Our Work Gallery</h1>
+            <p class="page-subtitle">Showcasing our completed painting projects across residential and commercial properties</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <!-- Gallery Filters -->
+        <section class="gallery-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="interior">Interior</button>
+                    <button class="filter-btn" data-filter="exterior">Exterior</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-grid" id="gallery-grid">
+                    
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item" data-category="exterior commercial">
+                        <img src="../images/callum-hill-DJEkxDFAci8-unsplash.jpg" alt="Commercial building exterior painting project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Commercial Building Exterior</h3>
+                                <p>Multi-story office building complete refresh</p>
+                                <span class="project-type">Exterior • Commercial</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item" data-category="exterior residential">
+                        <img src="../images/johan-mouchet-qDLdKMBmC6o-unsplash.jpg" alt="Residential exterior painting with scaffolding">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Residential Facade Renovation</h3>
+                                <p>Complete exterior painting and restoration</p>
+                                <span class="project-type">Exterior • Residential</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item" data-category="commercial">
+                        <img src="../images/henry-perks-dw5fYCa8kFs-unsplash.jpg" alt="Industrial painting project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Industrial Complex</h3>
+                                <p>Large-scale commercial painting project</p>
+                                <span class="project-type">Commercial • Industrial</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item" data-category="interior residential">
+                        <img src="../images/callum-hill-f1UwaROA2UQ-unsplash.jpg" alt="Interior painting project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Modern Interior Transformation</h3>
+                                <p>Complete interior painting and color consultation</p>
+                                <span class="project-type">Interior • Residential</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item" data-category="exterior commercial">
+                        <img src="../images/kai-pilger-GQm9dBlUv4M-unsplash.jpg" alt="Stairway painting project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Commercial Stairway Restoration</h3>
+                                <p>Professional stairwell painting and railings</p>
+                                <span class="project-type">Exterior • Commercial</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 6 -->
+                    <div class="gallery-item" data-category="residential">
+                        <img src="../images/flow-clark-ioOlenqfMqA-unsplash.jpg" alt="Residential painting project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Residential Color Refresh</h3>
+                                <p>Interior and exterior color coordination</p>
+                                <span class="project-type">Residential • Full Service</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 7 -->
+                    <div class="gallery-item" data-category="commercial">
+                        <img src="../images/nomadic-julien-eEjD0kK1NHY-unsplash.jpg" alt="Urban commercial project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Urban Commercial District</h3>
+                                <p>Multi-building commercial painting project</p>
+                                <span class="project-type">Commercial • Urban</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 8 -->
+                    <div class="gallery-item" data-category="exterior residential">
+                        <img src="../images/callum-hill-JR403KAH97U-unsplash.jpg" alt="Residential exterior work">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Historic Home Restoration</h3>
+                                <p>Careful restoration of period architecture</p>
+                                <span class="project-type">Exterior • Historic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Before/After Section -->
+        <section class="before-after-section">
+            <div class="container">
+                <h2 class="section-title">Before & After Transformations</h2>
+                <div class="before-after-grid">
+                    <div class="before-after-card">
+                        <h3>Office Building Exterior</h3>
+                        <p>Complete exterior renovation transformed this aging office building into a modern commercial space.</p>
+                        <div class="transformation-stats">
+                            <div class="stat">
+                                <span class="stat-number">15,000</span>
+                                <span class="stat-label">sq ft painted</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">14</span>
+                                <span class="stat-label">days completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="before-after-card">
+                        <h3>Residential Interior</h3>
+                        <p>Modern color palette and professional finishes created an open, contemporary living space.</p>
+                        <div class="transformation-stats">
+                            <div class="stat">
+                                <span class="stat-number">2,500</span>
+                                <span class="stat-label">sq ft painted</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">days completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Testimonials -->
+        <section class="gallery-testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="testimonial-quote">"ProPaint transformed our office building completely. The quality of work and attention to detail exceeded our expectations."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">MR</div>
+                            <div class="testimonial-info">
+                                <h4>Michael Rodriguez</h4>
+                                <p>Property Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="testimonial-quote">"Professional, reliable, and the results speak for themselves. Our home looks amazing and the process was seamless."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">JW</div>
+                            <div class="testimonial-info">
+                                <h4>Jennifer Wong</h4>
+                                <p>Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="testimonial-quote">"The high-rise work was completed safely and efficiently. Their team handled our complex project with expertise."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">DS</div>
+                            <div class="testimonial-info">
+                                <h4>David Smith</h4>
+                                <p>Building Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready for Your Transformation?</h2>
+                    <p>Let us help you create a space you'll love. Get started with a free consultation and quote.</p>
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ProPaint Services</h3>
+                    <p>Professional painting and handyman services for residential and commercial properties.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Interior Painting</a></li>
+                        <li><a href="services.html">Exterior Painting</a></li>
+                        <li><a href="services.html">High-Rise Work</a></li>
+                        <li><a href="services.html">Stairways</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ProPaint Services. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/scroll.js"></script>
+    <script>
+        // Gallery Filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterBtns.forEach(otherBtn => otherBtn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category').includes(filter)) {
+                            item.style.display = 'block';
+                            item.style.animation = 'fadeIn 0.5s ease';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
