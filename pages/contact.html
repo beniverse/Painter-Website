@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ProPaint Services</title>
+    <meta name="description" content="Contact ProPaint Services for free quotes and consultations. Phone, email, and online form options available.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="../index.html">ProPaint</a></h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contact ProPaint Services</h1>
+            <p class="page-subtitle">Get your free quote today. We respond to all inquiries within 24 hours.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <!-- Contact Methods -->
+        <section class="contact-methods">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Call Us</h3>
+                            <p><strong>(555) 123-4567</strong></p>
+                            <p>Mon-Fri: 7:00 AM - 6:00 PM<br>
+                               Saturday: 8:00 AM - 4:00 PM<br>
+                               Sunday: Emergency calls only</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email Us</h3>
+                            <p><strong>info@propaintservices.com</strong></p>
+                            <p>Send project details, photos, or questions. We'll respond within 24 hours with a detailed assessment.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Service Area</h3>
+                            <p><strong>Metro Area & Surrounding Communities</strong></p>
+                            <p>We travel to your location for consultations and projects. No job too far within our service area.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Forms -->
+        <section class="contact-forms">
+            <div class="container">
+                <div class="forms-container">
+                    <!-- Quote Request Form -->
+                    <div class="form-section">
+                        <h2>Request a Detailed Quote</h2>
+                        <p>Get a comprehensive estimate for your painting project.</p>
+                        
+                        <form id="quote-form" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name *</label>
+                                    <input type="text" id="name" name="name" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="project-type" class="form-label">Project Type *</label>
+                                    <select id="project-type" name="project-type" class="form-select" required>
+                                        <option value="">Select project type</option>
+                                        <option value="interior">Interior Painting</option>
+                                        <option value="exterior">Exterior Painting</option>
+                                        <option value="commercial">Commercial Project</option>
+                                        <option value="high-rise">High-Rise Work</option>
+                                        <option value="stairway">Stairway/Details</option>
+                                        <option value="mixed">Multiple Services</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="timeline" class="form-label">Preferred Timeline</label>
+                                    <select id="timeline" name="timeline" class="form-select">
+                                        <option value="">Select timeline</option>
+                                        <option value="asap">ASAP</option>
+                                        <option value="1-2weeks">1-2 weeks</option>
+                                        <option value="1month">Within a month</option>
+                                        <option value="2-3months">2-3 months</option>
+                                        <option value="flexible">Flexible</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="location" class="form-label">Project Location *</label>
+                                    <input type="text" id="location" name="location" class="form-input" placeholder="City, State or full address" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="dimensions" class="form-label">Approximate Size</label>
+                                    <input type="text" id="dimensions" name="dimensions" class="form-input" placeholder="e.g., 2,000 sq ft, 3 rooms">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="description" class="form-label">Project Description *</label>
+                                <textarea id="description" name="description" class="form-textarea" placeholder="Please describe your project in detail. Include colors, surfaces, prep work needed, and any special requirements." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">Get My Quote</button>
+                        </form>
+                    </div>
+
+                    <!-- Quick Contact Form -->
+                    <div class="form-section">
+                        <div class="contact-info">
+                            <h2>Quick Contact</h2>
+                            <p>Have a question or need immediate assistance?</p>
+                            
+                            <form id="contact-form" class="contact-form quick-form">
+                                <div class="form-group">
+                                    <label for="contact-name" class="form-label">Name *</label>
+                                    <input type="text" id="contact-name" name="name" class="form-input" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="contact-email" class="form-label">Email *</label>
+                                    <input type="email" id="contact-email" name="email" class="form-input" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="contact-phone" class="form-label">Phone</label>
+                                    <input type="tel" id="contact-phone" name="phone" class="form-input">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea id="message" name="message" class="form-textarea" placeholder="How can we help you?" required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-secondary btn-large">Send Message</button>
+                            </form>
+                            
+                            <!-- Emergency Contact -->
+                            <div class="emergency-contact">
+                                <h3>Emergency Service</h3>
+                                <p>Need immediate assistance with damage or urgent repairs?</p>
+                                <a href="tel:+15551234567" class="btn btn-outline">Call Emergency Line</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Our Service Area</h2>
+                <div class="map-container">
+                    <!-- Placeholder for Google Maps -->
+                    <div style="
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #666;
+                        border-radius: 12px;
+                        flex-direction: column;
+                        gap: 1rem;
+                    ">
+                        <div style="font-size: 1.5rem; font-weight: bold; color: var(--color-accent-2);">MAP</div>
+                        <p style="font-size: 1.2rem; font-weight: 500;">Interactive Service Area Map</p>
+                        <p>We serve the entire metro area and surrounding communities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Contact Us */
+        <section class="why-contact">
+            <div class="container">
+                <h2 class="section-title">Why Choose ProPaint for Your Project?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h3>Fast Response</h3>
+                        <p>All inquiries answered within 24 hours. Emergency services available.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📋</div>
+                        <h3>Detailed Quotes</h3>
+                        <p>Comprehensive estimates with no hidden fees or surprise charges.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎨</div>
+                        <h3>Color Consultation</h3>
+                        <p>Professional color advice and design consultation included free.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🛡️</div>
+                        <h3>Fully Insured</h3>
+                        <p>Licensed, bonded, and insured for your complete peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ProPaint Services</h3>
+                    <p>Professional painting and handyman services for residential and commercial properties.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Interior Painting</a></li>
+                        <li><a href="services.html">Exterior Painting</a></li>
+                        <li><a href="services.html">High-Rise Work</a></li>
+                        <li><a href="services.html">Stairways</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ProPaint Services. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/scroll.js"></script>
+    <script src="../assets/js/form.js"></script>
+</body>
+</html> 
